@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import TaxHarvesting from "./pages/TaxHarvesting";
 import HarvestSummary from "./components/HarvestSummary";
 import Disclaimer from "./components/Disclaimer";
-import koinxLogo from "./koinx-logo.png";
+import koinxLogo from "./logo.png";
 import "./App.css";
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
     <img 
       src={koinxLogo} 
       alt="Koinx Logo" 
-      className="h-5"
+      className="h-10 w-auto"
     />
     
     <button
